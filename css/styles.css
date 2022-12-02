@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto';
-  background: #ffffff;
+  background: var(--color-white);
 }
 
 :root {
@@ -127,7 +127,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-radius: 4px;
-  background: #2196f3;
+  background: var(--color-blue);
   cursor: pointer;
 }
 
