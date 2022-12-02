@@ -16,77 +16,73 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Studio</title>
   </head>
 
   <body>
-    <div class="global-wrapper">
       <header>
-        <section class="container">
-          <a class="social-links" href="/index.html">
-            <span class="top-webstudio-discriptions">Web</span
-            ><span class="top-webstudio-discriptions-one">Studio</span></a
-          >
+        <section class="header-wrapper">
+          <div class="nav-discription">
+          <a class="social-links" href="/index.html"><span class="top-logo-one">Web</span><span class="top-logo-two">Studio</span></a>
           <nav>
-            <ul class="container navigation">
-              <li><a class="nav-discription" href="#">Agencja</a></li>
+            <ul class="nav-discription site-navigation">
+              <li><a class="social-links" href="#">Agencja</a></li>
               <li>
-                <a class="nav-discription" href="portfolio.html">Portfolio</a>
+              <a class="social-links" href="portfolio.html">Portfolio</a>
               </li>
-              <li><a class="nav-discription" href="#">Kontakt</a></li>
+              <li><a class="social-links" href="#">Kontakt</a></li>
             </ul>
-          </nav>
+        </nav>
 
-          <ul class="container">
+          <ul class="nav-discription contacts">
             <li>
-              <a class="contacts-discription" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <a class="social-links contact-color" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li><a class="contacts-discription" href="tel:+48111111111">+48 111 111 111</a></li>
+            <li><a class="social-links contact-color" href="tel:+48111111111">+48 111 111 111</a></li>
           </ul>
-        </section>
+        </div>
       </header>
 
-      <!--Hero-->
       <main>
-        <section class="main-discription">
-          <h1 class="main-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="button-type" type="button">
-            <span class="selection">Zamów usługe</span>
+        <section class="wrapper-main-studio-discription">
+          <div class="main-studio-discription">
+          <h1 class="main-studio-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="studio-button" type="button">
+            <span class="studio-button-text">Zamów usługe</span>
           </button>
+          </div>
         </section>
 
-        <section>
-          <ul class="text-and-inf-block-area">
+        <section class="global-wrapper">
+          <ul class="studio-text-block">
             <li>
-              <h2 class="text-block-discription">LOREM IPSUM</h2>
-              <p class="inf-discription">
+              <h2 class="header-text-block">LOREM IPSUM</h2>
+              <p class="text-block-discription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <h2 class="text-block-discription">LOREM IPSUM</h2>
-              <p class="inf-discription">
+              <h2 class="header-text-block">LOREM IPSUM</h2>
+              <p class="text-block-discription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <h2 class="text-block-discription">LOREM IPSUM</h2>
-              <p class="inf-discription">
+              <h2 class="header-text-block">LOREM IPSUM</h2>
+              <p class="text-block-discription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <h2 class="text-block-discription">LOREM IPSUM</h2>
-              <p class="inf-discription">
+              <h2 class="header-text-block">LOREM IPSUM</h2>
+              <p class="text-block-discription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuada
               </p>
@@ -94,99 +90,96 @@
           </ul>
         </section>
 
-        <!--Czym się zajmujemy-->
-        <div>
-          <h2 class="secondary-discription what-we-do">Czym się zajmujemy</h2>
-          <ul class="photos-position">
+          <section class="our-activities-area global-wrapper">
+          <h2 class="our-activities">Czym się zajmujemy</h2>
+          <ul class="images-our-activities">
             <li>
               <img
-                class="photos-discription"
                 src="images/images-studio/box1.jpg"
                 alt="człowiek pracuje przy komputerze"
               />
             </li>
             <li>
               <img
-                class="photos-discription"
                 src="images/images-studio/box2.jpg"
                 alt="człowiek patrzy w telefon siędząc przy komputerze"
               />
             </li>
             <li>
               <img
-                class="photos-discription"
                 src="images/images-studio/box3.jpg"
                 alt="tablet w którym wyświetlony obrazek palety kolorów"
               />
             </li>
           </ul>
-        </div>
+        </section>
 
-        <!--Nasz zspół-->
-        <section class="main-our-team">
-          <h2 class="secondary-discription our-team">Nasz zespół</h2>
-          <ul class="photos-block-two-area">
+        <section class="our-team-area ">
+          <h2 class="our-team">Nasz zespół</h2>
+
+          <ul class="images-our-team global-wrapper">
             <li>
-              <img
-                class="photos-block-two"
+              <div class="img-border-our-team">
+              <img class="images-our-team-discription"
                 src="images/images-studio/img4.jpg"
                 alt="zdjęcię Maciej Wiesłowski"
               />
-              <h3 class="name-discription">John Doe</h3>
-              <span class="position">Product Designer</span>
+              <h3 class="employee-name">John Doe</h3>
+              <p class="employee-position">Product Designer</p>
             </li>
-
+          </div>
+          
             <li>
-              <img
-                class="photos-block-two"
+              <div class="img-border-our-team">
+              <img class="images-our-team-discription"
                 src="images/images-studio/img3.jpg"
                 alt="zdjęcię Marta Kowalska"
               />
-              <h3 class="name-discription">John Doe</h3>
-              <span class="position">Frontend Developer</span>
+              <h3 class="employee-name">John Doe</h3>
+              <p class="employee-position">Frontend Developer</p>
             </li>
+          </div>
 
             <li>
-              <img
-                class="photos-block-two"
+              <div class="img-border-our-team">
+              <img class="images-our-team-discription"
                 src="images/images-studio/img2.jpg"
                 alt="zdjęcię Robert Lewandowski"
               />
-              <h3 class="name-discription">John Doe</h3>
-              <span class="position">Marketing</span>
+              <h3 class="employee-name">John Doe</h3>
+              <p class="employee-position">Marketing</p>
             </li>
+          </div>
 
             <li>
-              <img
-                class="photos-block-two"
+              <div class="img-border-our-team">
+              <img class="images-our-team-discription"
                 src="images/images-studio/img1.jpg"
                 alt="zdjęcię Jhon Smith"
               />
-              <h3 class="name-discription">John Doe</h3>
-              <span class="position">UI Designer</span>
+              
+              <h3 class="employee-name">John Doe</h3>
+              <p class="employee-position">UI Designer</p>
             </li>
+          </div>
           </ul>
         </section>
       </main>
 
-      <footer>
+      <footer class="footer-wrapper">
         <div class="footer-discription">
-          <a class="social-links" href="index.html">
-            <span class="down-webstudio-discription">Web</span
-            ><span class="down-webstudio-discription-one">Studio</span></a
-          >
+          <a class="social-links" href="index.html"><span class="footer-logo-one">Web</span><span class="footer-logo-two">Studio</span></a>
           <address>
-            <ul>
+            <ul class="footer-contacts">
               <li>
-                <a class="footer-address" href="https://goo.gl/maps/fYrhQ94LUuPDDyDd8">
-                  m. Warszawa, Aleje Jerozolimskie 21</a
-                >
+                <a class="social-links contact-color" href="https://goo.gl/maps/fYrhQ94LUuPDDyDd8">
+                  m. Warszawa, Aleje Jerozolimskie 21</a>
               </li>
               <li>
-                <a class="footer-address" href="mailto:info@example.com">info@example.com</a>
+                <a class="social-links contact-color" href="mailto:info@example.com">info@example.com</a>
               </li>
               <li>
-                <a class="footer-address" href="tel:+48111111111">+48 111 111 111</a>
+                <a class="social-links contact-color" href="tel:+48111111111">+48 111 111 111</a>
               </li>
             </ul>
           </address>
