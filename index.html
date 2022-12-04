@@ -16,17 +16,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css"/>
     <title>Studio</title>
   </head>
 
   <body>
       <header>
-        <section class="header-wrapper">
+        <div class="container">
           <div class="nav-discription">
+            <div class="nav-area">
           <a class="social-links" href="/index.html"><span class="top-logo-one">Web</span><span class="top-logo-two">Studio</span></a>
           <nav>
-            <ul class="nav-discription site-navigation">
+            <ul class="site-navigation">
               <li><a class="social-links" href="#">Agencja</a></li>
               <li>
               <a class="social-links" href="portfolio.html">Portfolio</a>
@@ -34,19 +35,21 @@
               <li><a class="social-links" href="#">Kontakt</a></li>
             </ul>
         </nav>
-
-          <ul class="nav-discription contacts">
+      </div>
+      
+          <ul class="contacts">
             <li>
-            <a class="social-links contact-color" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="social-links contacts-color" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li><a class="social-links contact-color" href="tel:+48111111111">+48 111 111 111</a></li>
+            <li><a class="social-links contacts-color" href="tel:+48111111111">+48 111 111 111</a></li>
           </ul>
+        </div>
         </div>
       </header>
 
       <main>
         <section class="wrapper-main-studio-discription">
-          <div class="main-studio-discription">
+          <div class="container main-studio-discription">
           <h1 class="main-studio-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button class="studio-button" type="button">
             <span class="studio-button-text">Zamów usługe</span>
@@ -54,7 +57,7 @@
           </div>
         </section>
 
-        <section class="global-wrapper">
+        <section class="container">
           <ul class="studio-text-block">
             <li>
               <h2 class="header-text-block">LOREM IPSUM</h2>
@@ -90,7 +93,7 @@
           </ul>
         </section>
 
-          <section class="our-activities-area global-wrapper">
+          <section class="our-activities-area container">
           <h2 class="our-activities">Czym się zajmujemy</h2>
           <ul class="images-our-activities">
             <li>
@@ -114,9 +117,9 @@
           </ul>
         </section>
 
-        <section class="our-team-area">
+        <section class="our-team-area container">
           <h2 class="our-team">Nasz zespół</h2>
-          <ul class="images-our-team">
+          <ul class="images-our-team container">
             <li>
               <div class="img-border-our-team">
               <img class="images-our-team-discription"
@@ -166,24 +169,25 @@
       </main>
 
       <footer class="footer-wrapper">
+        <div class="container">
         <div class="footer-discription">
           <a class="social-links" href="index.html"><span class="footer-logo-one">Web</span><span class="footer-logo-two">Studio</span></a>
           <address>
             <ul class="footer-contacts">
               <li>
-                <a class="social-links contact-color" href="https://goo.gl/maps/fYrhQ94LUuPDDyDd8">
+                <a class="social-links contacts-color" href="https://goo.gl/maps/fYrhQ94LUuPDDyDd8">
                   m. Warszawa, Aleje Jerozolimskie 21</a>
               </li>
               <li>
-                <a class="social-links contact-color" href="mailto:info@example.com">info@example.com</a>
+                <a class="social-links contacts-color" href="mailto:info@example.com">info@example.com</a>
               </li>
               <li>
-                <a class="social-links contact-color" href="tel:+48111111111">+48 111 111 111</a>
+                <a class="social-links contacts-color" href="tel:+48111111111">+48 111 111 111</a>
               </li>
             </ul>
           </address>
         </div>
+      </div>
       </footer>
-    </div>
   </body>
 </html>
